@@ -1,0 +1,15 @@
+{
+  "linters": {
+    "__tests__/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+  },
+  "ignore": ["**/dist"]
+}
